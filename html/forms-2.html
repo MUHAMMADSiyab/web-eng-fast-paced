@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML Forms - Part 2</title>
+	</head>
+	
+	<body>
+		<form>
+		
+			<input type="text" autofocus autocomplete="off" placeholder="Enter something" disabled value="Something" hidden>
+			
+			<br>
+		
+			<!-- Checkbox -->
+			<p>Select your hobbies</p>
+			
+			<input type="checkbox" name="cricket" value="cricket">
+			<label for="cricket">Cricket</label>
+			
+			<input type="checkbox" name="hockey" value="hockey">
+			<label for="hockey">Hockey</label>
+			
+			<input type="checkbox" name="games" value="games">
+			<label for="games">Games</label>
+			
+			<!-- Radio -->
+			
+			<p>Select your gender</p>
+			
+			<input type="radio" name="gender" value="male" checked>
+			<label for="gender">Male</label>
+			
+			<input type="radio" name="gender" value="female">
+			<label for="gender">Female</label>
+			
+			<br></br>
+			
+			<input type="hidden" name="" value="">
+			
+			<!-- Select list -->
+			<label for="city">Select your city</label>
+			<select name="city" size="1">
+				<option value="kar">Karachi</option>
+				<option value="isl">Islamabad</option>
+				<option value="pesh" selected>Peshawar</option>
+				<option value="quet">Quetta</option>
+				<option value="mult">Multan</option>
+			</select>
+		</form>
+	</body>
+</html>
