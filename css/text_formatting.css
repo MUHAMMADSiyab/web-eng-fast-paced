@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:200,400,600i,700,700i&display=swap");
+
+h1 {
+  font-family: "Nunito", sans-serif;
+  font-size: 2in;
+  text-align: center;
+  color: rgb(47, 182, 6);
+  font-weight: bold;
+  /* font-style: italic; */
+  letter-spacing: 50px;
+  text-decoration: none;
+  text-transform: none;
+  text-shadow: 5px 10px 30px orange;
+}
+
+p {
+  word-spacing: 10px;
+  text-align: justify;
+  text-indent: 0.5in;
+  column-count: 3;
+  column-gap: 60px;
+  text-transform: capitalize;
+  line-height: 0.3in;
+}
