@@ -1,0 +1,19 @@
+body {
+  background-image: url(./images/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+div {
+  width: 500px;
+  height: 500px;
+  /* background-color: rgba(41, 184, 13, 0.5); */
+  /* background-image: url(./images/123.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+
+  background: radial-gradient(brown, purple, orange, green, yellow, red);
+}

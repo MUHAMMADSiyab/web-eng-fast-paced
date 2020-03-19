@@ -1,0 +1,53 @@
+/* All selector */
+* {
+  font-family: sans-serif;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  margin-top: 10px;
+}
+
+/* ID & Class Selectors */
+.card-1 {
+  background-color: purple;
+}
+#card-2 {
+  background-color: rgb(39, 151, 10);
+}
+
+.card-3 {
+  background-color: saddlebrown;
+}
+
+/* Multiple */
+.card-1,
+.card-3 {
+  margin-left: 200px;
+}
+
+/******************* DESCENDENT SELECTORS ******************/
+
+/* All children */
+.container a {
+  color: orange;
+}
+
+/* All direct children */
+.container > a {
+  font-size: xx-large;
+}
+
+/************** SIBLING SELECTORS ************/
+
+/* All siblings */
+h1 ~ h2 {
+  color: blue;
+  font-family: calibri;
+}
+
+/* All direct siblings */
+h1 + h2 {
+  color: red;
+}
