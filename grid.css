@@ -1,0 +1,15 @@
+.container {
+  font-family: sans-serif;
+  font-size: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr 6fr;
+  grid-template-rows: 600px;
+  grid-gap: 50px;
+}
+
+.container > .item:nth-child(odd) {
+  background-color: grey;
+}
+.container > .item:nth-child(even) {
+  background-color: rgb(202, 202, 202);
+}
